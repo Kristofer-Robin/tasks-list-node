@@ -40,7 +40,7 @@
                         <% tasksData.forEach((taskElement) => { %>
                             <li class="collection-item">
                             <%= taskElement.task %>
-                                <a href="#" class="secondary-content">X</a>
+                                <a href="delete-task/<%= taskElement.id %>" class="secondary-content">X</a>
                             </li>
                         <%})%>
                     </ul>
